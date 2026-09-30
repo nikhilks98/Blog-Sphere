@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Contact BlogSphere and share your feedback, ideas and suggestions.">
+
+    <meta name="keywords"
+        content="BlogSphere contact, student blog, feedback">
+
+    <title>BlogSphere - Contact</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>BlogSphere</h1>
+
+        <p>Explore. Learn. Share.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="blog.html">Blog</a>
+            <a href="categories.html">Categories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <section>
+
+            <h2>Contact Us</h2>
+
+            <p>
+                Have a question, suggestion or feedback?
+                Fill out the form below.
+            </p>
+
+        </section>
+
+
+        <!-- Contact Form -->
+        <section>
+
+            <form id="contactForm" onsubmit="return validateForm()">
+
+                <!-- Full Name -->
+                <label for="name">Full Name:</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+                <br><br>
+
+
+                <!-- Email -->
+                <label for="email">Email:</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+                <br><br>
+
+
+                <!-- Phone -->
+                <label for="phone">Phone Number:</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                >
+
+                <br><br>
+
+
+                <!-- Gender -->
+                <p><strong>Gender:</strong></p>
+
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="Male"
+                >
+
+                <label for="male">Male</label>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="Female"
+                >
+
+                <label for="female">Female</label>
+
+                <br><br>
+
+
+                <!-- Category -->
+                <label for="category">Choose a Category:</label>
+
+                <select id="category" name="category">
+
+                    <option value="">Select Category</option>
+                    <option value="technology">Technology</option>
+                    <option value="programming">Programming</option>
+                    <option value="education">Education</option>
+                    <option value="ai">Artificial Intelligence</option>
+                    <option value="student">Student Life</option>
+
+                </select>
+
+                <br><br>
+
+
+                <!-- Message -->
+                <label for="message">Message:</label>
+
+                <br>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    cols="40"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+                <br><br>
+
+
+                <!-- Submit -->
+                <button type="submit">
+                    Send Message
+                </button>
+
+                <button type="reset">
+                    Reset
+                </button>
+
+            </form>
+
+        </section>
+
+
+        <!-- Other Information -->
+        <section>
+
+            <h2>Why Contact Us?</h2>
+
+            <ul>
+                <li>Share your feedback</li>
+                <li>Suggest a new blog topic</li>
+                <li>Report an issue</li>
+                <li>Ask a question</li>
+            </ul>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            &copy; 2026 BlogSphere. All Rights Reserved.
+        </p>
+
+        <p>
+            Made using HTML, CSS and JavaScript.
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
